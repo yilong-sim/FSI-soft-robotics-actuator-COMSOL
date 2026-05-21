@@ -2,7 +2,7 @@
 
 Fully coupled fluid-structure interaction (FSI) simulation of a pneumatic balloon actuator in a soft robotic platform, validated against experiment across three channel geometries. Simulation results directly guided actuator design and were published in *Advanced Intelligent Systems* (2021).
 
-**My contribution:** All COMSOL simulations — model design, constitutive model selection and fitting, solver configuration, and experimental validation — were executed solely by me.
+**My contribution:** All COMSOL simulations — model design, constitutive model selection and fitting, solver configuration, and experimental validation (in collaboration with wet-lab co-authors).
 
 ---
 
