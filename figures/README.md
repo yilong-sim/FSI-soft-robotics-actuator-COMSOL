@@ -17,7 +17,7 @@ Target width: 800–1000 px for clean GitHub rendering.
 
 **mesh_domain.png:** A clean isometric screenshot of the COMSOL mesh, showing
 the two-layer solid structure and fluid domain. Label PDMS, Ecoflex, and fluid
-regions. Dark background from COMSOL is fine — contrasts well on GitHub.
+regions.
 
 **ogden_fit.png:** Stress (kPa) vs. strain (%) with the fitted curve overlaid.
 Include R² = 0.995 annotation. Can be re-plotted in Python/matplotlib from
