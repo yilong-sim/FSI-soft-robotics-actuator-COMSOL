@@ -1,18 +1,26 @@
-# FSI Digital Twin for Soft Robotics Actuators
+# FSI Digital Twin for Soft Polymer Actuators
 
 Fully coupled fluid-structure interaction (FSI) simulation of a pneumatic balloon actuator in a soft robotic platform, validated against experiment across three channel geometries. Simulation results directly guided actuator design and were published in *Advanced Intelligent Systems* (2021).
 
-**My contribution:** All COMSOL simulations — model design, constitutive model selection and fitting, solver configuration, and experimental validation (in collaboration with wet-lab co-authors).
+**My contribution:** COMSOL FSI model design, constitutive model selection and parameter fitting, solver configuration, and experimental validation (in collaboration with wet-lab co-authors).
 
 ---
 
 ## Demo
 
-| Experiment | Simulation |
+### Full Wing Actuation — DraBot
+
+![drabot](media/drabot_wing.gif)
+
+*Bilateral hindwing deflection controlled independently via balloon actuators. Differential flapping steers the robot's direction of travel.*
+
+### Balloon Actuator — Experiment vs. Simulation
+
+| Experiment | COMSOL FSI Simulation |
 |:---:|:---:|
 | ![exp](media/balloon_exp.gif) | ![sim](media/balloon_sim.gif) |
 
-*Balloon actuator expansion at 2.5 µL/s injection rate, 7.1 mm channel. Ecoflex membrane (bottom) inflates asymmetrically, driving out-of-plane deflection of the PDMS wing structure.*
+*Rectangular microchannel (7.1 × 1.8 × 0.15 mm) pressurized at 2.5 µL/s. Ecoflex membrane inflates asymmetrically, driving out-of-plane wing deflection.*
 
 **Validation — displacement angle vs. injected volume across three channel lengths:**
 
@@ -64,8 +72,9 @@ FSI-soft-actuator-COMSOL/
 │   ├── mesh_domain.png             — 3D domain isometric view (Fig S3a)
 │   └── ogden_fit.png               — Ecoflex stress-strain fit (Fig S2b)
 ├── media/
-│   ├── balloon_exp.gif             — experimental balloon expansion
-│   └── balloon_sim.gif             — COMSOL simulation output
+│   ├── drabot_wing.gif             — full DraBot bilateral wing actuation
+│   ├── balloon_exp.gif             — close-up experimental balloon expansion
+│   └── balloon_sim.gif             — COMSOL FSI simulation output
 └── simulation/
     ├── model_notes.md              — full physics, BCs, solver, design judgment
     ├── mesh_convergence.md         — mesh independence verification
