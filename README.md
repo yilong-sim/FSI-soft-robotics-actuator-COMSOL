@@ -1,4 +1,4 @@
-# FSI Digital Twin for Soft Robotics Actuators
+# FSI Digital Twin for Soft Robotic Actuators
 
 Fully coupled fluid-structure interaction (FSI) simulation of a pneumatic balloon actuator in a soft robotic platform, validated against experiment across three channel geometries. Simulation results directly guided actuator design and were published in *Advanced Intelligent Systems* (2021).
 
