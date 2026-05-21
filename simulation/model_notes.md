@@ -27,15 +27,10 @@ study over channel length, and validated against experiment before use in design
 
 ## Geometry and Domain
 
-A 3D cuboid domain represents one balloon actuator unit.
+![mesh_domain](../figures/mesh_domain.png)
 
-```
-                    ┌─────────────────────────┐  ← PDMS layer (stiff)
-                    │      Fluid Domain        │  ← microchannel (pressurized)
-                    └─────────────────────────┘  ← Ecoflex membrane (compliant)
-
-              Fixed end ──►|                   |◄── Free end (deflects)
-```
+*3D FSI domain: PDMS layer (top, stiff), fluid microchannel (middle, pressurized), 
+Ecoflex membrane (bottom, compliant). Right end fixed; left end deflects freely.*
 
 | Dimension | Value |
 |---|---|
