@@ -68,18 +68,18 @@ A purely analytical approach is intractable. The FSI digital twin was built to r
 FSI-soft-actuator-COMSOL/
 ├── README.md
 ├── figures/
-│   ├── sim_vs_exp_validation.png   — Fig 1g / Fig S3b from paper
-│   ├── mesh_domain.png             — 3D domain isometric view (Fig S3a)
-│   └── ogden_fit.png               — Ecoflex stress-strain fit (Fig S2b)
+│   ├── sim_vs_exp_validation.png   
+│   ├── mesh_domain.png             
+│   └── ogden_fit.png               
 ├── media/
-│   ├── drabot_wing.gif             — full DraBot bilateral wing actuation
-│   ├── balloon_exp.gif             — close-up experimental balloon expansion
-│   └── balloon_sim.gif             — COMSOL FSI simulation output
+│   ├── drabot_wing.gif             
+│   ├── balloon_exp.gif             
+│   └── balloon_sim.gif             
 └── simulation/
-    ├── model_notes.md              — full physics, BCs, solver, design judgment
-    ├── mesh_convergence.md         — mesh independence verification
+    ├── model_notes.md              
+    ├── mesh_convergence.md         
     └── material_params/
-        └── ecoflex_ogden.md        — constitutive model + fitted constants
+        └── ecoflex_ogden.md       
 ```
 
 ---
