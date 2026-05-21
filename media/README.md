@@ -4,8 +4,9 @@ Place the following files here:
 
 | Filename | Source | Description |
 |---|---|---|
-| `balloon_exp.gif` | Your experimental video | Balloon actuator expansion, 7.1 mm channel |
-| `balloon_sim.gif` | COMSOL animation export | Corresponding simulation output |
+| `drabot_wing.gif` | Your experimental video | Full DraBot bilateral wing actuation |
+| `balloon_exp.gif` | Your experimental video | Close-up balloon actuator expansion, 7.1 mm channel |
+| `balloon_sim.gif` | COMSOL animation export | Corresponding FSI simulation output |
 
 ## How to prepare the GIFs
 
